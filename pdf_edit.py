@@ -55,9 +55,9 @@ def replace_text_preserving_format(input_pdf, output_pdf, replacements):
 
 # Example usage
 replacements = [
-    ("90 days", "60 days"),
-    ("(90)", "(60)"),
-    ("Ninety days", "Sixty days")
+    ("10 days", "50 days"),
+    ("(10)", "(30)"),
+    ("six days", "three days")
 ]
 
 replace_text_preserving_format("C:\\code\\training\\may\\output.pdf", "output1.pdf", replacements)
